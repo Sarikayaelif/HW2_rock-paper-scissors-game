@@ -64,7 +64,7 @@ while variables.your_choice is False:
 				print("_____________________________________________________________________")
 				print("____You LOSE! player lives:", variables.your_lives)
 			else:
-				print("_____________________________________________________________________")
+				print("____________________________________________________________________")
 				print("____You win! It is just coincidence! Don't be too happy!")
 				variables.my_lives -= 1
 

@@ -3,7 +3,7 @@ from gamePackage import variables
 # define a win / lose function and refer to it (invoke it) in our game loop
 def winorlose(status):
     if status == "won":
-        pre_message = "Wow you won! I said it is just a coincidence. I think you can't dare to play again with me!!"
+        pre_message = "Wow you won! I said it is just a coincidence. I think you can't dare to play again with me!"
     else:
         pre_message = "You lost! I said it will happend. You should never have played this game with me! You are the loser!"
 
