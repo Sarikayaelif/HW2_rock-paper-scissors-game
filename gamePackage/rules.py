@@ -9,10 +9,6 @@ def winorlose(status):
         pre_message = "You lost! I said it will happend. You should never have played this game with me! You are the loser!"
 
     print(pre_message + 'Do you still dare to play this game with me once again?\n')
-<<<<<<< HEAD
-=======
-
->>>>>>> 98a95d6de440338e42c47c6f870c626cc04792fc
 
     choice = False
 
