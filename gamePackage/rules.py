@@ -31,9 +31,11 @@ def winorlose(status):
             print("Invalid entry! Please make a valid choice - Y or N\n")
 
             choice = False
-
+            
+# for question at the begining of the game
 def accept_or_decline():
     answer = ''
+    # for avoiding typing errors
     while answer != 'n' and answer != 'y':
         answer = input("Do you dare to play rock-paper-scisssors game with me? Y or N \n").lower()
         if answer == 'n':
