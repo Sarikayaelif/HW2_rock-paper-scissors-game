@@ -9,6 +9,8 @@ while variables.your_choice is False:
 		print("_____________________________________________________________________")
 		print("~~~~~~~~~~~~~~~~~*/ ROCK PAPER SCISSORS GAME */~~~~~~~~~~~~~~~~~~~~~~")
 		print("_____________________________________________________________________")
+# accept or decline is defined in rules.py file
+# for question before start the game
 		rules.accept_or_decline()
 		print("_____________________________________________________________________")
 		print("You want to play with me! Good luck, because you will need!")
@@ -25,7 +27,7 @@ while variables.your_choice is False:
 	variables.your_choice = input("Choose rock, paper, or scissors: \n")
 
 	variables.your_choice = variables.your_choice.lower()
-
+# for quiting anypoint
 	if variables.your_choice == "quit":
 		print("You chose to quit")
 		exit()
@@ -76,7 +78,7 @@ while variables.your_choice is False:
 
 				variables.my_lives -= 1
 
-
+# for typing errors
 	else:
 		print("Please enter a valid choice!")
 
