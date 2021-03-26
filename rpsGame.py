@@ -53,7 +53,7 @@ while variables.your_choice is False:
 			if variables.your_choice == "scissors":
 				variables.your_lives -= 1
 				print("_____________________________________________________________________")
-				print("_____You LOSE! player lives:", variables.your_lives)
+				print("_____You LOSE! your lives:", variables.your_lives)
 			else:
 				print("_____________________________________________________________________")
 				print("_____You win! It is just coincidence! Don't be too happy!")
@@ -64,7 +64,7 @@ while variables.your_choice is False:
 				variables.your_lives -= 1
 
 				print("_____________________________________________________________________")
-				print("_____You LOSE! player lives:", variables.your_lives)
+				print("_____You LOSE! your lives:", variables.your_lives)
 			else:
 				print("_____________________________________________________________________")
 				print("____You win! It is just coincidence! Don't be too happy!")
@@ -75,7 +75,7 @@ while variables.your_choice is False:
 				variables.your_lives -= 1
 
 				print("_____________________________________________________________________")
-				print("____You LOSE! player lives:", variables.your_lives)
+				print("____You LOSE! your lives:", variables.your_lives)
 			else:
 				print("____________________________________________________________________")
 				print("____You win! It is just coincidence! Don't be too happy!")
