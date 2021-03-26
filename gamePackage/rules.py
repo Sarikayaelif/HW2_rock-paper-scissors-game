@@ -3,19 +3,13 @@ from gamePackage import variables
 # define a win / lose function and refer to it (invoke it) in our game loop
 def winorlose(status):
     if status == "won":
-<<<<<<< HEAD
-        pre_message = "Wow you won! You are the greatest player!"
-    else:
-        pre_message = "You lost! You are the loser!"
 
-    print(pre_message + 'Would you like to play again?\n')
-=======
         pre_message = "Wow you won! I said it is just a coincidence. I think you can't dare to play again with me!"
     else:
         pre_message = "You lost! I said it will happend. You should never have played this game with me! You are the loser!"
 
     print(pre_message + 'Do you still dare to play athos game with me once again?\n')
->>>>>>> main
+
 
     choice = False
 
@@ -27,19 +21,16 @@ def winorlose(status):
             variables.your_lives = variables.total_lives
             variables.my_lives = variables.total_lives
             variables.your_choice = False
-<<<<<<< HEAD
-=======
+
             variables.first_entry = True
->>>>>>> main
+
         elif choice == "N" or choice == "n":
             # exit message and quit
             print("You chose to exit from the game. Hope to see you next time!")
             exit()
         else:
             print("Invalid entry! Please make a valid choice - Y or N\n")
-<<<<<<< HEAD
-            choice = False
-=======
+
             choice = False
 
 def accept_or_decline():
@@ -52,4 +43,4 @@ def accept_or_decline():
         elif answer != 'y':
             print("Invalid entry! Please make a valid choice - Y or N\n")
         
->>>>>>> main
+
